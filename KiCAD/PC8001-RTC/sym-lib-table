@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name RTC7301)(type Legacy)(uri ${KIPRJMOD}/RTC7301.lib)(options "")(descr ""))
+  (lib (name PST600)(type Legacy)(uri ${KIPRJMOD}/PST600.lib)(options "")(descr ""))
+)
