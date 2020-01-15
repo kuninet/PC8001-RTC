@@ -1,0 +1,21 @@
+= PC-8001 RTC7301DG用設定サンプルプログラムなど
+
+== 注意
+* RTCボードのI/Oアドレスは80hとしてください。別のI/Oアドレスにする場合はプログラムを適宜修正ください。
+
+== サンブルプログラム
+* RTCTOL.CMT (N-BASIC用 CMT形式ファイル)
+** RTC日時確認および設定用ツール
+*** 日時読み出し時にDATE$、TIME$を設定します。
+*** RTCTOL.BASは参考用のソーステキストです
+*** RTCTOL.wavはカセットI/F用音声ファイルです
+* SD-DOS用自動日時設定プログラム(N-BASIC用 CMT形式ファイル)
+** ちくらっぺさん作のSD-DOSでmountコマンド実行時にRTCから日時を読み出してDATE$、TIME$へ設定するプログラムです。
+
+== プログラムの実行方法
+* wavファイルをPC-8001のCMTインターフェース経由で送り cloadコマンドを使用するか、CMT形式のファイルをMicroSDカード経由でSD-DOS(ちくらっぺさん作)にてロードしてください。
+* SD-DOSを使用するには、MicroSDカードボード、8kSRAMボードが必要です。
+
+== 参考URL
+* ちくらっぺさんのTwitter (PC-8001用 SDボード、SRAMボード、SD-DOSの情報など)
+** https://twitter.com/chiqlappe

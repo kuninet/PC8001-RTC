@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:PC8001-RTC-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -612,37 +613,6 @@ Wire Wire Line
 	5250 4150 5500 4150
 Wire Wire Line
 	4750 3150 4750 3400
-Wire Wire Line
-	4850 4450 5250 4450
-Wire Wire Line
-	4750 4550 5150 4550
-Wire Wire Line
-	5150 3800 5150 4550
-Connection ~ 5150 4550
-Wire Wire Line
-	5150 4550 5500 4550
-NoConn ~ 5050 3800
-$Comp
-L Device:R_US R1
-U 1 1 5E39FEE7
-P 5250 4800
-F 0 "R1" H 5100 4850 50  0000 L CNN
-F 1 "10k" H 5050 4750 50  0000 L CNN
-F 2 "" V 5290 4790 50  0001 C CNN
-F 3 "~" H 5250 4800 50  0001 C CNN
-	1    5250 4800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5250 4450 5250 4650
-Connection ~ 5250 4450
-Wire Wire Line
-	5250 4450 5500 4450
-Wire Wire Line
-	5250 4950 5250 5000
-Wire Wire Line
-	5250 5000 5400 5000
-Connection ~ 5400 5000
 $Comp
 L Device:D_Schottky D1
 U 1 1 5E3E94B6
@@ -786,4 +756,18 @@ Wire Wire Line
 Connection ~ 8450 2100
 Wire Wire Line
 	8450 2100 8650 2100
+Wire Wire Line
+	4850 4450 5150 4450
+Wire Wire Line
+	4750 4550 5050 4550
+Wire Wire Line
+	5050 3800 5050 4550
+Connection ~ 5050 4550
+Wire Wire Line
+	5050 4550 5500 4550
+Wire Wire Line
+	5150 3800 5150 4450
+Connection ~ 5150 4450
+Wire Wire Line
+	5150 4450 5500 4450
 $EndSCHEMATC

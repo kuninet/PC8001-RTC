@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# 74xx_74LS138
+# 74xx:74LS138
 #
-DEF 74xx_74LS138 U 0 40 Y Y 1 L N
+DEF 74xx:74LS138 U 0 40 Y Y 1 L N
 F0 "U" -300 450 50 H V C CNN
-F1 "74xx_74LS138" -300 -550 50 H V C CNN
+F1 "74xx:74LS138" -300 -550 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -32,11 +32,11 @@ X O6 9 500 -300 200 L 50 50 1 0 O V
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic_Conn_02x08_Counter_Clockwise
+# Connector_Generic:Conn_02x08_Odd_Even
 #
-DEF Connector_Generic_Conn_02x08_Counter_Clockwise J 0 40 Y N 1 F N
+DEF Connector_Generic:Conn_02x08_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 400 50 H V C CNN
-F1 "Connector_Generic_Conn_02x08_Counter_Clockwise" 50 -500 50 H V C CNN
+F1 "Connector_Generic:Conn_02x08_Odd_Even" 50 -500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -61,29 +61,29 @@ S 150 105 100 95 1 1 6 N
 S 150 205 100 195 1 1 6 N
 S 150 305 100 295 1 1 6 N
 X Pin_1 1 -200 300 150 R 50 50 1 1 P
-X Pin_10 10 300 -300 150 L 50 50 1 1 P
-X Pin_11 11 300 -200 150 L 50 50 1 1 P
-X Pin_12 12 300 -100 150 L 50 50 1 1 P
-X Pin_13 13 300 0 150 L 50 50 1 1 P
-X Pin_14 14 300 100 150 L 50 50 1 1 P
-X Pin_15 15 300 200 150 L 50 50 1 1 P
-X Pin_16 16 300 300 150 L 50 50 1 1 P
-X Pin_2 2 -200 200 150 R 50 50 1 1 P
-X Pin_3 3 -200 100 150 R 50 50 1 1 P
-X Pin_4 4 -200 0 150 R 50 50 1 1 P
-X Pin_5 5 -200 -100 150 R 50 50 1 1 P
-X Pin_6 6 -200 -200 150 R 50 50 1 1 P
-X Pin_7 7 -200 -300 150 R 50 50 1 1 P
-X Pin_8 8 -200 -400 150 R 50 50 1 1 P
-X Pin_9 9 300 -400 150 L 50 50 1 1 P
+X Pin_10 10 300 -100 150 L 50 50 1 1 P
+X Pin_11 11 -200 -200 150 R 50 50 1 1 P
+X Pin_12 12 300 -200 150 L 50 50 1 1 P
+X Pin_13 13 -200 -300 150 R 50 50 1 1 P
+X Pin_14 14 300 -300 150 L 50 50 1 1 P
+X Pin_15 15 -200 -400 150 R 50 50 1 1 P
+X Pin_16 16 300 -400 150 L 50 50 1 1 P
+X Pin_2 2 300 300 150 L 50 50 1 1 P
+X Pin_3 3 -200 200 150 R 50 50 1 1 P
+X Pin_4 4 300 200 150 L 50 50 1 1 P
+X Pin_5 5 -200 100 150 R 50 50 1 1 P
+X Pin_6 6 300 100 150 L 50 50 1 1 P
+X Pin_7 7 -200 0 150 R 50 50 1 1 P
+X Pin_8 8 300 0 150 L 50 50 1 1 P
+X Pin_9 9 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic_Conn_02x25_Odd_Even
+# Connector_Generic:Conn_02x25_Odd_Even
 #
-DEF Connector_Generic_Conn_02x25_Odd_Even J 0 40 Y N 1 F N
+DEF Connector_Generic:Conn_02x25_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 1300 50 H V C CNN
-F1 "Connector_Generic_Conn_02x25_Odd_Even" 50 -1300 50 H V C CNN
+F1 "Connector_Generic:Conn_02x25_Odd_Even" 50 -1300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -194,11 +194,11 @@ X Pin_9 9 -200 800 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_CP1
+# Device:CP1
 #
-DEF Device_CP1 C 0 10 N N 1 F N
+DEF Device:CP1 C 0 10 N N 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Device_CP1" 25 -100 50 H V L CNN
+F1 "Device:CP1" 25 -100 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -214,11 +214,11 @@ X ~ 2 0 -150 130 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_C_Small
+# Device:C_Small
 #
-DEF Device_C_Small C 0 10 N N 1 F N
+DEF Device:C_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "Device_C_Small" 10 -80 50 H V L CNN
+F1 "Device:C_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -232,11 +232,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_D_ALT
+# Device:D_ALT
 #
-DEF Device_D_ALT D 0 40 N N 1 F N
+DEF Device:D_ALT D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Device_D_ALT" 0 -100 50 H V C CNN
+F1 "Device:D_ALT" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -254,11 +254,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_D_Schottky
+# Device:D_Schottky
 #
-DEF Device_D_Schottky D 0 40 N N 1 F N
+DEF Device:D_Schottky D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Device_D_Schottky" 0 -100 50 H V C CNN
+F1 "Device:D_Schottky" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -276,11 +276,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_R_Network08
+# Device:R_Network08
 #
-DEF Device_R_Network08 RN 0 0 Y N 1 F N
+DEF Device:R_Network08 RN 0 0 N N 1 F N
 F0 "RN" -500 0 50 V V C CNN
-F1 "Device_R_Network08" 400 0 50 V V C CNN
+F1 "Device:R_Network08" 400 0 50 V V C CNN
 F2 "Resistor_THT:R_Array_SIP9" 475 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -323,11 +323,11 @@ X R8 9 300 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_R_US
+# Device:R_US
 #
-DEF Device_R_US R 0 0 N Y 1 F N
+DEF Device:R_US R 0 0 N Y 1 F N
 F0 "R" 100 0 50 V V C CNN
-F1 "Device_R_US" -100 0 50 V V C CNN
+F1 "Device:R_US" -100 0 50 V V C CNN
 F2 "" 40 -10 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -344,11 +344,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# PST600_PST600
+# PST600:PST600
 #
-DEF PST600_PST600 U 0 40 Y Y 1 F N
+DEF PST600:PST600 U 0 40 Y Y 1 F N
 F0 "U" 0 700 50 H V C CNN
-F1 "PST600_PST600" 0 600 50 H V C CNN
+F1 "PST600:PST600" 0 600 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -363,11 +363,11 @@ X OUT 3 350 0 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# RTC7301_RTC7301DG
+# RTC7301:RTC7301DG
 #
-DEF RTC7301_RTC7301DG U 0 40 Y Y 1 F N
+DEF RTC7301:RTC7301DG U 0 40 Y Y 1 F N
 F0 "U" -250 900 50 H V C CNN
-F1 "RTC7301_RTC7301DG" 300 900 50 H V C CNN
+F1 "RTC7301:RTC7301DG" 300 900 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -393,11 +393,11 @@ X GND 9 0 -900 100 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# power_GND
+# power:GND
 #
-DEF power_GND #PWR 0 0 Y Y 1 F P
+DEF power:GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
+F1 "power:GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -406,11 +406,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power_PWR_FLAG
+# power:PWR_FLAG
 #
-DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+DEF power:PWR_FLAG #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
-F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F1 "power:PWR_FLAG" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -419,11 +419,11 @@ X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
-# power_VCC
+# power:VCC
 #
-DEF power_VCC #PWR 0 0 Y Y 1 F P
+DEF power:VCC #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_VCC" 0 150 50 H V C CNN
+F1 "power:VCC" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

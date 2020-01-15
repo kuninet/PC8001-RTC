@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:PC8001-RTC-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -193,71 +194,71 @@ Wire Wire Line
 Text Label 4850 4150 0    50   ~ 0
 A6
 $Comp
-L Connector_Generic:Conn_02x08_Counter_Clockwise J2
+L Connector_Generic:Conn_02x08_Odd_Even J2
 U 1 1 5E1D9D73
-P 6800 4250
-F 0 "J2" H 6850 4767 50  0000 C CNN
-F 1 "ADDR JP" H 6850 4676 50  0000 C CNN
-F 2 "" H 6800 4250 50  0001 C CNN
-F 3 "~" H 6800 4250 50  0001 C CNN
-	1    6800 4250
+P 6850 4250
+F 0 "J2" H 6900 4767 50  0000 C CNN
+F 1 "ADDR JP" H 6900 4676 50  0000 C CNN
+F 2 "" H 6850 4250 50  0001 C CNN
+F 3 "~" H 6850 4250 50  0001 C CNN
+	1    6850 4250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7100 3950 7200 3950
+	7150 3950 7200 3950
 Wire Wire Line
 	7200 3950 7200 4050
 Wire Wire Line
-	7200 4650 7100 4650
+	7200 4650 7150 4650
 Connection ~ 7200 3950
 Wire Wire Line
 	7200 3950 8350 3950
 Wire Wire Line
-	7100 4050 7200 4050
+	7150 4050 7200 4050
 Connection ~ 7200 4050
 Wire Wire Line
 	7200 4050 7200 4150
 Wire Wire Line
-	7100 4150 7200 4150
+	7150 4150 7200 4150
 Connection ~ 7200 4150
 Wire Wire Line
 	7200 4150 7200 4250
 Wire Wire Line
-	7100 4250 7200 4250
+	7150 4250 7200 4250
 Connection ~ 7200 4250
 Wire Wire Line
 	7200 4250 7200 4350
 Wire Wire Line
-	7100 4350 7200 4350
+	7150 4350 7200 4350
 Connection ~ 7200 4350
 Wire Wire Line
 	7200 4350 7200 4450
 Wire Wire Line
-	7200 4450 7100 4450
+	7200 4450 7150 4450
 Connection ~ 7200 4450
 Wire Wire Line
 	7200 4450 7200 4550
 Wire Wire Line
-	7100 4550 7200 4550
+	7150 4550 7200 4550
 Connection ~ 7200 4550
 Wire Wire Line
 	7200 4550 7200 4650
 Wire Wire Line
-	6500 3950 6600 3950
+	6500 3950 6650 3950
 Wire Wire Line
-	6500 4050 6600 4050
+	6500 4050 6650 4050
 Wire Wire Line
-	6500 4150 6600 4150
+	6500 4150 6650 4150
 Wire Wire Line
-	6500 4250 6600 4250
+	6500 4250 6650 4250
 Wire Wire Line
-	6500 4350 6600 4350
+	6500 4350 6650 4350
 Wire Wire Line
-	6500 4450 6600 4450
+	6500 4450 6650 4450
 Wire Wire Line
-	6500 4550 6600 4550
+	6500 4550 6650 4550
 Wire Wire Line
-	6500 4650 6600 4650
+	6500 4650 6650 4650
 NoConn ~ 9150 5100
 NoConn ~ 9150 5200
 $Comp
@@ -612,37 +613,6 @@ Wire Wire Line
 	5250 4150 5500 4150
 Wire Wire Line
 	4750 3150 4750 3400
-Wire Wire Line
-	4850 4450 5250 4450
-Wire Wire Line
-	4750 4550 5150 4550
-Wire Wire Line
-	5150 3800 5150 4550
-Connection ~ 5150 4550
-Wire Wire Line
-	5150 4550 5500 4550
-NoConn ~ 5050 3800
-$Comp
-L Device:R_US R1
-U 1 1 5E39FEE7
-P 5250 4800
-F 0 "R1" H 5100 4850 50  0000 L CNN
-F 1 "10k" H 5050 4750 50  0000 L CNN
-F 2 "" V 5290 4790 50  0001 C CNN
-F 3 "~" H 5250 4800 50  0001 C CNN
-	1    5250 4800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5250 4450 5250 4650
-Connection ~ 5250 4450
-Wire Wire Line
-	5250 4450 5500 4450
-Wire Wire Line
-	5250 4950 5250 5000
-Wire Wire Line
-	5250 5000 5400 5000
-Connection ~ 5400 5000
 $Comp
 L Device:D_Schottky D1
 U 1 1 5E3E94B6
@@ -663,7 +633,7 @@ L Device:D_ALT D2
 U 1 1 5E4135CD
 P 7750 2350
 F 0 "D2" V 7704 2429 50  0000 L CNN
-F 1 "1N4148" V 7800 2000 50  0000 L CNN
+F 1 "1N4148" V 7850 2200 50  0000 L CNN
 F 2 "" H 7750 2350 50  0001 C CNN
 F 3 "~" H 7750 2350 50  0001 C CNN
 	1    7750 2350
@@ -757,7 +727,7 @@ $EndComp
 Wire Wire Line
 	6900 3000 6900 3050
 Wire Wire Line
-	7500 2600 7250 2600
+	7500 2600 7350 2600
 NoConn ~ 2950 2450
 NoConn ~ 2950 2550
 NoConn ~ 2950 2650
@@ -786,4 +756,55 @@ Wire Wire Line
 Connection ~ 8450 2100
 Wire Wire Line
 	8450 2100 8650 2100
+Wire Wire Line
+	4850 4450 5150 4450
+Wire Wire Line
+	4750 4550 5050 4550
+Wire Wire Line
+	5050 3800 5050 4550
+Connection ~ 5050 4550
+Wire Wire Line
+	5050 4550 5500 4550
+Wire Wire Line
+	5150 3800 5150 4450
+Connection ~ 5150 4450
+Wire Wire Line
+	5150 4450 5500 4450
+$Comp
+L Device:R_US R1
+U 1 1 5E1ED6C7
+P 7350 2350
+F 0 "R1" H 7200 2400 50  0000 L CNN
+F 1 "10K" H 7150 2300 50  0000 L CNN
+F 2 "" V 7390 2340 50  0001 C CNN
+F 3 "~" H 7350 2350 50  0001 C CNN
+	1    7350 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 2200 7350 2100
+Connection ~ 7350 2100
+Wire Wire Line
+	7350 2500 7350 2600
+Connection ~ 7350 2600
+Wire Wire Line
+	7350 2600 7250 2600
+Text Notes 6500 3950 0    50   ~ 0
+$8x
+Text Notes 6500 4050 0    50   ~ 0
+$9x
+Text Notes 6500 4150 0    50   ~ 0
+$Ax
+Text Notes 6500 4250 0    50   ~ 0
+$Bx
+Text Notes 6500 4350 0    50   ~ 0
+$Cx
+Text Notes 6500 4450 0    50   ~ 0
+$Dx
+Text Notes 6500 4550 0    50   ~ 0
+$Ex
+Text Notes 6500 4650 0    50   ~ 0
+$Fx
+Text Notes 8400 2650 0    50   ~ 0
+Supercapacitor
 $EndSCHEMATC
