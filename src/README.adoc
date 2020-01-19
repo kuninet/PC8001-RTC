@@ -3,14 +3,55 @@
 == 注意
 * RTCボードのI/Oアドレスは80hとしてください。別のI/Oアドレスにする場合はプログラムを適宜修正ください。
 
-== サンブルプログラム
-* RTCTOL.CMT (N-BASIC用 CMT形式ファイル)
-** RTC日時確認および設定用ツール
-*** 日時読み出し時にDATE$、TIME$を設定します。
-*** RTCTOL.BASは参考用のソーステキストです
-*** RTCTOL.wavはカセットI/F用音声ファイルです
-* SD-DOS用自動日時設定プログラム(N-BASIC用 CMT形式ファイル)
-** ちくらっぺさん作のSD-DOSでmountコマンド実行時にRTCから日時を読み出してDATE$、TIME$へ設定するプログラムです。
+== サンプルプログラム
+|===
+
+|ファイル名|BASIC/マシン語/その他|説明
+
+|RTCTOL.CMT
+|BASIC
+|RTC日時確認および設定用ツール
+日時読み出し時にDATE$、TIME$を設定します。
+
+|RTCTOL.BAS
+|その他
+|RTCTOLのソーステキスト(参考用)
+
+
+|RTCTOL.wav
+|その他
+|RTCTOLのカセットI/F用音声ファイル
+CLOAD "RTCCOL"
+
+
+|HELLO.CMT
+|BASIC
+|SD-DOS用自動日時設定プログラム(N-BASIC用 CMT形式ファイル)
+ちくらっぺさん作のSD-DOSでmountコマンド実行時にRTCから日時を読み出してDATE$、TIME$へ設定するプログラムです。
+
+|HELLO.BAS
+|その他
+|SD-DOS用自動日時設定プログラム(N-BASIC)参考ソース
+
+
+|HELLO.wav
+|その他
+|SD-DOS用自動日時設定プログラム(N-BASIC)CMTデータ
+CLOAD "HELLO"
+
+|RTCR-S.CMT
+|BASIC?
+|RTC7301DG から日時データを読みだすTL/I-PCソース。(N-BASIC REM文)
+
+|RTCR-S.TLI
+|その他
+|RTC7301DG から日時データを読みだすTL/I-PCソースの参考テキスト
+
+|RTCR.CMT
+|機械語
+|開始番地:C800、RTC7301DG から日時データを読みだして表示します
+
+|===
 
 == プログラムの実行方法
 * wavファイルをPC-8001のCMTインターフェース経由で送り cloadコマンドを使用するか、CMT形式のファイルをMicroSDカード経由でSD-DOS(ちくらっぺさん作)にてロードしてください。
